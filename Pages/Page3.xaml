@@ -1,0 +1,60 @@
+﻿<Page x:Class="SobaKing.Pages.Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Background="#F5F5F5">
+
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+
+            <TextBlock Text="Soba King POS System"
+                       FontSize="32"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,20"/>
+
+            <TextBlock Text="Project Members"
+                       FontSize="24"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,20"/>
+
+            <Border Background="White"
+                    Padding="20"
+                    CornerRadius="10"
+                    Width="500" Height="196">
+
+                <StackPanel Margin="0,0,0,-22">
+
+                    <TextBlock Text="A - PowerPoint Presentation"
+                               FontSize="18"
+                               Margin="5"/>
+
+                    <TextBlock Text="B - Excel Documentation"
+                               FontSize="18"
+                               Margin="5"/>
+                    <TextBlock Text="C - Project Management"
+                               FontSize="18"
+                               Margin="5"/>
+                    <TextBlock Text="ネーさん - UI / Layout Design"
+                               FontSize="18"
+                               Margin="5"/>
+
+                    <TextBlock Text="ミンさん - Application Coding"
+                               FontSize="18"
+                               Margin="5"/>
+
+                </StackPanel>
+
+            </Border>
+
+            <TextBlock Text=""
+                       Margin="0,20,0,0"
+                       FontSize="14"
+                       Foreground="Gray"
+                       HorizontalAlignment="Center"/>
+
+        </StackPanel>
+
+    </Grid>
+</Page>

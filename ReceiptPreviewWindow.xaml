@@ -1,0 +1,22 @@
+﻿<Window x:Class="SobaKing.ReceiptPreviewWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Receipt Preview"
+        Height="600" Width="400">
+
+    <DockPanel>
+
+        <!-- PRINT BUTTON -->
+        <Button Content="Print"
+                DockPanel.Dock="Bottom"
+                Height="40"
+                Background="#4CAF50"
+                Foreground="White"
+                Click="Print_Click"/>
+
+        <!-- PREVIEW -->
+        <FlowDocumentScrollViewer x:Name="docViewer"/>
+
+    </DockPanel>
+
+</Window>
